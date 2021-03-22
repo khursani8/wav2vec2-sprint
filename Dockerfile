@@ -5,7 +5,8 @@ RUN apt-get update && \
     build-essential \
     libsndfile1-dev \
     git-lfs \
-    sox
+    sox \
+    libsox-fmt-mp3
 
 RUN python3 -m pip install --no-cache-dir --upgrade pip && \
     python3 -m pip install --no-cache-dir \
